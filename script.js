@@ -37,8 +37,10 @@ function submitForm() {
   const form = document.querySelector('.coolinput');
   const centerDiv = document.querySelector('.center');
   const btnDiv = document.querySelector('button.btn')?.parentElement;
+  const footdiv = document.querySelector('footer');
 
-  [form, centerDiv, btnDiv].forEach(el => {
+
+  [form, centerDiv, btnDiv, footdiv].forEach(el => {
     if (el) {
       el.style.transition = 'opacity 1s ease';
       el.style.opacity = 0;
