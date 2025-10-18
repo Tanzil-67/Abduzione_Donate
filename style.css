@@ -203,3 +203,11 @@ p {
   display: block;
   opacity: 1;
 }
+
+
+footer {
+  margin-top: 40%;
+  text-align: center;
+  color: #4a6572;
+  font-weight: bold;
+}
