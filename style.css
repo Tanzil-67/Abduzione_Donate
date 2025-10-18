@@ -159,7 +159,7 @@ p {
   outline: 0;
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: #40b3a2;
   min-width: 220px;
   border: 0;
@@ -211,3 +211,4 @@ footer {
   color: #4a6572;
   font-weight: bold;
 }
+
