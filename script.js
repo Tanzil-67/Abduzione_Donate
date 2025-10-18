@@ -33,7 +33,6 @@ function submitForm() {
     console.error("Error saving donor: ", error);
   });
 
-  alert("Thank you for donating, " + name + "!");
 
   const form = document.querySelector('.coolinput');
   const centerDiv = document.querySelector('.center');
